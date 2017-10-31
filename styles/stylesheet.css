@@ -17,11 +17,15 @@ nav {
   background-color: #9767fc;
   font-family: arial, helvetica, sans-serif;
   color: #ffffff;
+  float: left;
+  
+  
 }
 
 aside {
   background-color: #c4a9fc;
   font-family: arial, helvetica, sans-serif;
+  
 }
 
 section {
