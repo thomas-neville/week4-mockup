@@ -5,30 +5,32 @@ header {
 
 header h1 {
   font-family: arial, helvetica, sans-serif;
+  color: #9767fc
 }
 
 nav {
-  background-color: #ffffff;
+  background-color: #9767fc;
   font-family: arial, helvetica, sans-serif;
+  color: #ffffff
 }
 
 aside {
-  background-color: #ffffff;
+  background-color: #c4a9fc;
   font-family: arial, helvetica, sans-serif;
 }
 
 section {
-  background-color: #ffffff;
+  background-color: #e3d9f7;
   font-family: arial, helvetica, sans-serif;
 }
 
 figure {
-  background-color: #ffffff;
+  background-color: #e3d9f7;
   font-family: arial, helvetica, sans-serif;
 }
 
 caption {
-  background-color: #ffffff;
+  background-color: #e3d9f7;
   font-family: arial, helvetica, sans-serif;
 }
 
