@@ -5,13 +5,18 @@ header {
 
 header h1 {
   font-family: arial, helvetica, sans-serif;
-  color: #9767fc
+  color: #9767fc;
+  font-size: 2em;
+  padding-top: 1.5em;
+  padding-bottom: .5em;
+  text-align: center;
+  /* preferred to specify padding on top and bottom and center align instead of shorthand for easier testing, but I would probably use shorthand if this was a logo */
 }
 
 nav {
   background-color: #9767fc;
   font-family: arial, helvetica, sans-serif;
-  color: #ffffff
+  color: #ffffff;
 }
 
 aside {
