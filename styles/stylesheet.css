@@ -42,7 +42,7 @@ body {
 #navbar ul a {
   /* I adjusted the width % depending on the amount of links in the nav bar (100/7=14.28~). Do you recommend an easier way that would allow more items to be added to the list without correcting that precentage? */
   float: left;
-  padding: .5em 2em;
+  padding: .5em 0 .5em;
   text-align: center; 
   border-right: 2px solid rebeccapurple;
   width: 14.28%;
@@ -67,6 +67,11 @@ aside {
   width: 25%;
 }
 
+aside img {
+  height: 75px;
+  width: auto;
+}
+
 aside li {
   padding: .5em;
 }
@@ -86,12 +91,14 @@ figure {
   background-color: #e3d9f7;
   height: 300px;
   width: 500px;
+  margin: auto; 
+  text-align: center
 }
 
 figure img {
   height: 250px;
   width: auto;
-  margin: 2em 4em;
+  margin: 2em;
 }
 
 figure figcaption {
