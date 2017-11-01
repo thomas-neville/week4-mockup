@@ -26,8 +26,13 @@ header h1 {
   overflow: hidden;
 }
 
-#navbar li {
+#navbar ul {
   background-color: #9767fc;
+}
+
+
+#navbar li {
+  
   border-right: 2px solid rebeccapurple;
   float: left;
   padding:.5em 3em;
@@ -38,6 +43,11 @@ header h1 {
   text-align: center; 
 }
 
+#navbar li a:hover {
+  /* link needs to be added for hover color to show up */
+  background-color: rebeccapurple;
+}
+
 aside {
   clear: both;
   float: left;
@@ -45,31 +55,47 @@ aside {
   font-family: arial, helvetica, sans-serif;
   color: #ffffff;
   font-weight: bold;
-  padding: 3em 3em 7em
+  padding: 3em 3em 7em;
+  height: 500px;
+  width: 25%;
 }
 
 aside li {
-  padding: .5em
+  padding: .5em;
+  
 }
 
 section {
   padding: 3em;
   background-color: #e3d9f7;
   font-family: arial, helvetica, sans-serif;
+  height: 500px;
+  width: 75%;
+  float: right; /* CLEAR THIS FLOAT */
   /* I would prefer to use the section tag for this rather than the article. I think I remember you saying that this could be whatever we preferred. */
 }
 
 figure {
   background-color: #e3d9f7;
-  
+  height: 
 }
 
 caption {
   background-color: #e3d9f7;
   font-family: arial, helvetica, sans-serif;
+  text-align: center;
+  font-size: 8pt;
 }
 
 footer {
   background-color: #ffffff;
   font-family: arial, helvetica, sans-serif;
+  text-align: center;
+}
+
+footer img {
+  height: 25px;
+  width: auto;
+  margin: 30px 10px;
+    
 }
