@@ -53,15 +53,15 @@ aside li {
 }
 
 section {
-
+  padding: 3em;
   background-color: #e3d9f7;
   font-family: arial, helvetica, sans-serif;
-  
+  /* I would prefer to use the section tag for this rather than the article. I think I remember you saying that this could be whatever we preferred. */
 }
 
 figure {
   background-color: #e3d9f7;
-  font-family: arial, helvetica, sans-serif;
+  
 }
 
 caption {
