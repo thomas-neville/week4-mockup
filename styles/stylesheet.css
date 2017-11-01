@@ -24,6 +24,8 @@ header h1 {
   color: #ffffff;
   font-weight: bold;
   overflow: hidden;
+  height: 35px;
+  width: 100%;
 }
 
 #navbar ul {
@@ -35,7 +37,8 @@ header h1 {
   
   border-right: 2px solid rebeccapurple;
   float: left;
-  padding:.5em 3em;
+  padding: .5em 3em;
+  
 }
 
 #navbar a {
@@ -67,7 +70,7 @@ aside li {
 
 section {
   padding: 3em;
-  background-color: #e3d9f7;
+  background-color: #dfd9f7;
   font-family: arial, helvetica, sans-serif;
   height: 500px;
   width: 75%;
@@ -76,15 +79,21 @@ section {
 }
 
 figure {
-  background-color: #e3d9f7;
-  height: 
+  background-color: #e3d9f7; 
 }
 
-caption {
+figure img {
+  height: 250px;
+  width: auto;
+  margin: 2em 4em
+  
+}
+
+figcaption {
   background-color: #e3d9f7;
   font-family: arial, helvetica, sans-serif;
   text-align: center;
-  font-size: 8pt;
+  font-size: 9pt;
 }
 
 footer {
