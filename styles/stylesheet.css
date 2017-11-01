@@ -24,21 +24,24 @@ header h1 {
   color: #ffffff;
   font-weight: bold;
   overflow: hidden;
-  width: 100%;
-  list-style: none;
+  
+  
+  
 }
 
 #navbar li {
   background-color: #9767fc;
+  border-right: 2px solid rebeccapurple;
   float: left;
   padding:.5em 3em;
-  
+
 }
 
 #navbar a {
   display: block;
   text-align: center;
-  width: 100%;
+  
+  
 }
 
 aside {
