@@ -1,3 +1,8 @@
+* {
+  box-sizing: border-box;
+  /* A slide in class said to include this on all stylesheets */
+}
+
 header {
   background-color: #ffffff;
   font-family: arial, helvetica, sans-serif;
@@ -13,16 +18,31 @@ header h1 {
   /* preferred to specify padding on top and bottom and center align instead of shorthand for easier testing, but I would probably use shorthand if this was a logo */
 }
 
-nav {
+#navbar {
   background-color: #9767fc;
   font-family: arial, helvetica, sans-serif;
   color: #ffffff;
+  font-weight: bold;
+  overflow: hidden;
+  width: 100%;
+  list-style: none;
+}
+
+#navbar li {
+  background-color: #9767fc;
   float: left;
-  
+  padding:.5em 3em;
   
 }
 
+#navbar a {
+  display: block;
+  text-align: center;
+  width: 100%;
+}
+
 aside {
+  clear: both;
   background-color: #c4a9fc;
   font-family: arial, helvetica, sans-serif;
   
@@ -31,6 +51,7 @@ aside {
 section {
   background-color: #e3d9f7;
   font-family: arial, helvetica, sans-serif;
+  
 }
 
 figure {
