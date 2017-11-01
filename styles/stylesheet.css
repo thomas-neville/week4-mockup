@@ -18,14 +18,20 @@ header h1 {
   /* preferred to specify padding on top and bottom and center align instead of shorthand for easier testing, but I would probably use shorthand if this was a logo */
 }
 
+body {
+  margin: 0 0 0 0;
+  max-width: 100%;
+}
+
 #navbar {
   /* Navigation bar returns to next line when resizing window */
   background-color: #9767fc;
   font-family: arial, helvetica, sans-serif;
   color: #ffffff;
   font-weight: bold;
-  width: 100%;
+  margin: 0 0 0 0;
   float: left;
+  width: 100%;
 }
 
 #navbar ul {
@@ -33,15 +39,18 @@ header h1 {
   width: 100%;
 }
 
-#navbar li {
+#navbar ul li {
+  /* I adjusted the width % depending on the amount of links in the nav bar (100/7=14.28~). Do you recommend an easier way that would allow more items to be added to the list without correcting that precentage? */
   float: left;
-  padding: .5em 3em;
+  padding: .5em 2em;
   text-align: center; 
   border-right: 2px solid rebeccapurple;
+  width: 14.28%;
 }
 
 #navbar li a {
   display: block;
+  padding: 0 0;
 }
 
 aside {
